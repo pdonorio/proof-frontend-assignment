@@ -1,0 +1,5 @@
+
+project: proof
+log-level: INFO
+mode: debug
+development: True
