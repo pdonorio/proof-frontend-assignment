@@ -52,6 +52,15 @@ services:
       # # GRAPHDB_PORT: ${GRAPHDB_BOLT_PORT}
       # # GRAPHDB_PASSWORD: ${GRAPHDB_PASSWORD}
       AUTH_FULL_JWT_PAYLOAD: ${FULL_JWT}
+      ##############################
+      ## EMAIL SETUP
+      EMAIL_ACTIVATION_SUBJECT: ${EMAIL_ACTIVATION_SUBJECT}
+      SMTP_ADMIN: ${SMTP_ADMIN}
+      SMTP_NOREPLY: ${SMTP_NOREPLY}
+      SMTP_HOST: ${SMTP_HOST}
+      SMTP_PORT: ${SMTP_PORT}
+      SMTP_USERNAME: ${SMTP_USERNAME}
+      SMTP_PASSWORD: ${SMTP_PASSWORD}
 
   ######################################
   react:
