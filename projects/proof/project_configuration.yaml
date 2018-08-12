@@ -16,13 +16,13 @@ variables:
     REGISTRATION_NOTIFICATIONS: 1
     SMTP_NOREPLY: "Proof Media Inc. <no-reply@proofmedia.io>"
     SMTP_HOST: smtp.gmail.com
-    SMTP_PORT: 587  # TLS
+    SMTP_PORT: 465
     #######################
     # PLEASE CUSTOMIZE FROM HERE BELOW
     ## email setup - you can create a gmail account for that
     SMTP_USERNAME: youraccount@gmail.com
-    SMTP_PASSWORD: yourgmailaccountpassword
-    SMTP_ADMIN: test@beta.io
-    # ^ this is the email admin account that receives an email
+    SMTP_PASSWORD: youraccountdifficultpassword
+    SMTP_ADMIN: someotheraccount@gmail.com
+    # ^ this is the email admin account that receives a notification
     # every time a user tries to register
     #######################
