@@ -12,7 +12,7 @@ We need to create frontend views with `React.js`:
 3. A view to assess a verification email was sent to the email specified.
 4. A view for a logged user to see his profile (which is where the user is redirected if successfull at step 1). 
 
-1. and 2. should be looking as close as possible to  the [attached design](data/images/login_design.png). 
+1. and 2. should be looking as close as possible to  the [attached design](https://github.com/pdonorio/proof-frontend-assignment/blob/master/data/images/login_design.png)
 The design is based on google material.
 The suggested library to integrate it is [material-ui](LINKTOADD)
 
