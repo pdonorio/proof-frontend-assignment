@@ -53,12 +53,10 @@ http POST localhost:8080/auth/profile \
 ```
 
 This call above tries to send an email to the specified address.
-To make that work you have to ensure you have the `SMTP` configuration in place (explained in another section of the documentation).
-
-If you're server is failing here please read this issue:
-https://github.com/pdonorio/proof-frontend-assignment/issues/1
-
 NOTE: this is not an authenticated request.
+
+To make it work you have to ensure you have the `SMTP` configuration in place 
+(explained in another section of the documentation).
 
 
 ### activation
