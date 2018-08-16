@@ -6,6 +6,7 @@ projects/*/frontend/*lock
 projects/*/frontend/node_modules
 projects/*/frontend/build
 .ipynb_checkpoints
+projects/proof/project_configuration.yaml
 
 #################
 ##  Submodules ##
@@ -30,4 +31,3 @@ submodules/do
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
