@@ -42,10 +42,10 @@ class RegisterForm extends Component {
         if (response.status === 200) {
           alert('An email has been sent to your email address to activate your account');
           console.log(200);
-        } else if (response.status === 401) {
-          alert('Sorry, this account has not been activated');
+        } else if (response.status === 400) {
+          alert('Email already exists');
         } else {
-          alert('Incorrect username/password');
+          alert('Unknown Error');
         }
       })
       .catch((error) => {
