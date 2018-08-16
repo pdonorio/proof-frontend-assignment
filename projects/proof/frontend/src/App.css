@@ -1,3 +1,27 @@
+#root { position: absolute; top: 0; bottom: 0; left: 0; right: 0; }
+
 .App {
-  padding: 20px;
+  flex: 1;
+  height: 100%;
+}
+
+.leftSide {
+  background-color: #eaf0f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightSide {
+  padding-left: 20px;
+  background-color: #384854;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.profile {
+  height: 100%;
+  background-color: #eaf0f6;
+  display: flex;
 }
