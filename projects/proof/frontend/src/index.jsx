@@ -1,5 +1,6 @@
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
+import 'typeface-roboto'; // eslint-disable-line
 import App from './App';
 
 const root = document.getElementById('root');
