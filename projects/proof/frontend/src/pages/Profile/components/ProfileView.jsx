@@ -31,7 +31,7 @@ const ProfileView = props => (
           {
               !props.isLoading
               &&
-              <Grid container spacing={24} style={styles.containerHeight}>
+              <Grid container spacing={24} style={styles.containerHeight} id="main-content">
                 <Grid item xs={7} className="image-side center-container-content">
                   <div style={styles.imgAlign}>
                     <img alt="Profile avatar" src={props.image} />

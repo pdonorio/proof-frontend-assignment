@@ -12,7 +12,6 @@ You can keep track of the things you need to do in this markdown file.
 - [x] Create signup and login presentational components to display the form
 - [x] Implement logic for signup and login using redux
 - [x] Write Tests for Login Container, Form, Reducer
-- [x] Write Tests for Login Action
-- [ ] Write Tests for Registration Container, Form, Reducer, Actions
-- [ ] Write Tests for Profile container, Reducer and Actions
+- [ ] Write Tests for Registration Container, Form, Reducer
+- [x] Write Tests for Profile container, Reducer
 - [ ] ~~Gmail not sending activation email. Need to fix it~~

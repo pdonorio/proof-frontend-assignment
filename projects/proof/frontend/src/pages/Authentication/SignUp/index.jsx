@@ -44,6 +44,17 @@ class SignUp extends Component {
     this.setState(state);
   }
 
+  /**
+   *
+   * @param {*} e The button event,
+   * we need preventDefault because the form refreshes on button click.
+   * Here we are validating the value sent from the child form element
+   * before passing it on to be saved. Following the smart and dumb
+   * component pattern
+   * (https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0)
+   * , we perform all logic in this container and use the
+   * child component as view only.
+   */
   submitForm(e) {
     e.preventDefault();
     const {
