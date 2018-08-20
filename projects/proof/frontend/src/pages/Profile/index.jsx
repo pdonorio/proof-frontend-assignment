@@ -27,9 +27,6 @@ Profile.propTypes = {
   profileAction: PropTypes.func.isRequired,
   isFetching: PropTypes.bool,
   data: PropTypes.shape(),
-  /* error: PropTypes.bool,
-  success: PropTypes.bool,
-  dataFetched: PropTypes.bool, */
 };
 
 Profile.defaultProps = { ...initialState };

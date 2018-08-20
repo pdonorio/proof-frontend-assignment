@@ -6,7 +6,7 @@ import emailImg from '../../../assets/if_paper_plane_1936915.svg';
 
 const ValidationEmail = () => (
   <MasterLayout>
-    <Grid container className="centered-container">
+    <Grid container className="centered-container full-height">
       <div className="email-sent-content">
         <img alt="Email Sent" src={emailImg} width="200" />
         <h3 className="">

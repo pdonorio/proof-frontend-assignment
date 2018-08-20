@@ -25,7 +25,7 @@ const ProfileView = props => (
     {
           props.isLoading && <LoadingScreen />
     }
-    <Grid container className="centered-container">
+    <Grid container className="centered-container full-height">
       <Card className="profile-container">
         <CardContent className="no-padding" style={styles.containerHeight}>
           {

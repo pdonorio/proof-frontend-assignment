@@ -7,7 +7,7 @@ const ProfileInfo = ({ title, value }) => (
     <Typography color="textSecondary">
       {title}
     </Typography>
-    <Typography variant="headline" component="h4">
+    <Typography variant="subheading">
       {value}
     </Typography>
   </React.Fragment>
