@@ -1,0 +1,32 @@
+.profile-container {
+    width: 60%;
+    height: 80%;
+}
+
+.center-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.image-side {
+    background: #f5f7f9;
+    height: 100%;
+    color: #000;
+}
+
+.image-side img{
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+.image-side h2 {
+    font-size: xx-large;
+    font-weight: 400;
+}
+
+.profile-description-side{
+    padding: 40px !important;
+    margin-top: 70px !important;
+}
