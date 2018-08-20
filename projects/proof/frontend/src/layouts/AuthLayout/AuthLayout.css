@@ -1,0 +1,121 @@
+
+
+  
+  div.form-field-container{
+    margin: 20px 0px;
+  }
+  
+  form{
+    width: 100%;
+  }
+  
+  form .instruction-text {
+    color: #a99d47;
+    font-size: small
+  }
+  
+  input.form-control{
+    background: #425662;
+    border:solid thin #425662;
+    outline: none;
+    color: #fff;
+    padding: 15px;
+    width:70%;
+    outline: none;
+  }
+  
+  button.form-control, a.form-control {
+    background: #fbe16e;
+    border:solid thin #fbe16e;
+    outline: none;
+    display: flex;
+    padding: 7px;
+    width: 120px;
+    align-items: center;
+    color: #9f9968;
+    font-weight: 500;
+    font-size: small;
+  }
+  
+  button.form-control, a.form-control:hover{
+    background: #e9d287;
+    border:solid thin #e9d287;
+    outline: none;
+  }
+  
+  button.form-control, a.form-control span {
+    margin-right: 7px;
+  }
+  
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #fff;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #fff;
+  }
+  
+.description-container{
+    background: #e8f0f7;
+    color: #000;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.description-content {
+    width: 60%;
+    padding: 80px 0px;
+}
+
+.description-content h1 {
+    font-size: -webkit-xxx-large;
+    font-family: 'Varela Round';
+}
+
+.description-content .learn-more-link {
+    margin-top: 45px;
+}
+
+.description-content .learn-more-link a {
+    text-decoration: none;
+    color: #858b8d;
+}
+
+.main-layout{
+  flex-grow: 1;
+  height: 100%;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 30px;
+}
+
+.login-link{
+  font-size: small;
+  align-items: center;
+  display: flex;
+  text-decoration: none;
+}
+
+.dark-white-text{
+  color: #f1f1f1;
+}
+
+button.link-like{
+  border: none;
+  background: transparent;
+  outline: none;
+}
+

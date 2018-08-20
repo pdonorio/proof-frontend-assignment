@@ -1,0 +1,22 @@
+.point-container{
+    display: flex;
+    margin-top: 50px;
+}
+
+.game-point-container{
+    display: flex;
+    font-size: small;
+}
+
+.point-container .point-text, .game-point-container .point-text{
+    padding-left: 40px;
+    font-weight: 545;
+    font-size: larger;
+}
+
+.point-container .point-text .point-description , 
+.game-point-container .point-text .point-description{
+    color: #858b8d;
+    font-size: medium;
+    margin-top: 5px;
+}
