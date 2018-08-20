@@ -31,3 +31,4 @@ submodules/do
 __pycache__/
 *.py[cod]
 
+/projects/proof/project_configuration.yaml
