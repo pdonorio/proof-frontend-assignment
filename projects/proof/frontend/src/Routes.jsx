@@ -11,7 +11,6 @@ const Routes = () => (
     <Route path="/profile" component={ProfileContainer} />
     <Route path="/register" component={LoginContainer} />
     <Route
-      exact
       path="/"
       render={() => (
         localStorage.getItem('session') ? (

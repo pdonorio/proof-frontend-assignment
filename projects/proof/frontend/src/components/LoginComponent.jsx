@@ -136,11 +136,11 @@ const LoginComponent = (props) => {
               required
             />
           </FormControl>
-          <Button className={classes.button} onClick={navigateSignUp} size="small">
-            Sign Up
-          </Button>
-          <Button onClick={handleSubmit} size="small">
+          <Button className={classes.button} onClick={handleSubmit} size="small">
             Log In
+          </Button>
+          <Button onClick={navigateSignUp} size="small">
+            Sign Up
           </Button>
         </div>
       </div>
