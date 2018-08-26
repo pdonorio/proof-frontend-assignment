@@ -11,7 +11,11 @@
 
 - [x] init and start rapydo
 
-- [ ] Begin outlining what needs to be done on the front end
+- [x] Install dependencies, e.g., material-ui
+
+- [ ] Build log-in page
+
+
 
 
 
