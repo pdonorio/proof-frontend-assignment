@@ -8,9 +8,9 @@ We have APIs on a Flask backend to register and verify a user into our mongo dat
 
 We need to create frontend views with `React.js`:
 1. A view to login.
-2. A view for a base registration form. 
+2. A view for a base registration form.
 3. A view to assess a verification email was sent to the email specified.
-4. A view for a logged user to see his profile (which is where the user is redirected if successfull at step 1). 
+4. A view for a logged user to see their profile (which is where the user is redirected if successfull at step 1). 
 
 1. and 2. should be looking as close as possible to  the [attached design](https://github.com/pdonorio/proof-frontend-assignment/blob/master/data/images/login_design.png)
 The design is based on google material.
@@ -55,7 +55,7 @@ http POST localhost:8080/auth/profile \
 This call above tries to send an email to the specified address.
 NOTE: this is not an authenticated request.
 
-To make it work you have to ensure you have the `SMTP` configuration in place 
+To make it work you have to ensure you have the `SMTP` configuration in place
 (explained in another section of the documentation).
 
 
@@ -69,7 +69,7 @@ HTTP/1.0 401 UNAUTHORIZED
             "Sorry, this account is not active"
 ```
 
-So let's activate the account. You received the token via email 
+So let's activate the account. You received the token via email
 (or can find it in the logs of the backend server)
 
 ```bash
@@ -91,4 +91,3 @@ http PUT localhost:8080/auth/profile/activate/blabla
 HTTP/1.0 400 BAD REQUEST
             "Invalid activation token"
 ```
-
