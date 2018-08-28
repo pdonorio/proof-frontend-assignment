@@ -25,7 +25,7 @@ sudo -H pip3 install --upgrade -r requirements.txt
 
 Check if it works:
 ```bash
-rapydo version
+rapydo --version
 ```
 
 <!--
